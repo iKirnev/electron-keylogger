@@ -1,0 +1,5 @@
+{
+    "x_period": 1,
+    "max_keystrokes": 50,
+    "pg": {"database": "keylogger", "user": "postgres", "password": "12345"}
+}

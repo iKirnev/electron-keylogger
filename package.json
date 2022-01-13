@@ -1,0 +1,38 @@
+{
+  "name": "rsi-injury-prevention",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node test.js",
+    "build": "npm i && cd keylogger && make && make install"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^16.0.6",
+    "electron-builder": "^22.14.5"
+  },
+  "build": {
+    "appId": "RSI Injury Prevention",
+    "files": [
+      "./build/**/*",
+      "main.js"
+    ],
+    "mac": {
+      "category": "Key Logger"
+    }
+  },
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}
